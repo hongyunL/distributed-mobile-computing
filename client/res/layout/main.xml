@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@id/llayout"
+    android:padding="7.0dip" >
+  	
+    <TextView 
+        android:textAppearance="?android:textAppearanceMedium" 
+        android:textSize="20.0dip" 
+        android:id="@id/item_title" 
+        android:padding="2.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Something here" />
+    
+    <ListView android:textSize="13.0dip" 
+        android:id="@id/item_subtitle" 
+        android:padding="2.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" />
+</LinearLayout>
